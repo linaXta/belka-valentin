@@ -1,7 +1,7 @@
 (function () {
   const qs = new URLSearchParams(window.location.search);
   const to = (qs.get("to") || "Милашка").trim();
-  const from = (qs.get("from") || "Your secret admirer").trim();
+  const from = (qs.get("from") || "").trim();
 
   const title = document.getElementById("title");
   const subtitle = document.getElementById("subtitle");
