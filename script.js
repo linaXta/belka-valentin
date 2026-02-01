@@ -66,7 +66,7 @@
     result.classList.remove("hidden");
 
     const lines = [
-      `${from} я так и знала что ты адекватный :*`
+      `${from} Я так и знала что ты адекватный :*`
     ];
     resultText.textContent = lines.join(" ");
 
